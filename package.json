@@ -2,14 +2,27 @@
   "name": "indiankadai",
   "version": "0.1.0",
   "private": true,
+  "proxy": "https://indiankadai.com",
   "dependencies": {
-    "@testing-library/jest-dom": "^5.14.1",
-    "@testing-library/react": "^13.0.0",
-    "@testing-library/user-event": "^13.2.1",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "add": "^2.0.6",
+    "alert": "^6.0.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "http-proxy-middleware": "^3.0.3",
+    "lucide-react": "^0.469.0",
+    "node-fetch": "^3.3.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.0"
+    "shadcn-ui": "^0.9.4",
+    "web-vitals": "^4.2.4",
+    "zlib": "^1.0.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +47,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
   }
 }
